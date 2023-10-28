@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Inicio</title>
+</head>
+<body>
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">Go<span class="span-t">T</span>ys</a>
+                  <form class="d-flex" role="search">
+                    <a class="link-buscador" href="../pages/buscador.html">Averigua el juego mas exitoso de cada año</a>
+                  </form>
+                  <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img class="img-carrito" src="https://cdn-icons-png.flaticon.com/256/3144/3144456.png" id="img-carrito">
+                              <div id="carrito">
+                                <!--completar el dibujo del carrito -->
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th>Cantidad</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                            </table>
+                                <a class="Vaciar-carrito" href="#" id="vaciar-carrito" class="boton u-full-width">Vaciar Carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                </nav>
+              
+            <main class="main-catalogo-index">
+        <!--HERO SECTION-->
+            <section class="titulo">
+                <h1>Todo gran exito tiene su comienzo</h1>
+                <h2>En este sitio te proponemos adentrarte en el mundo de los videojuegos. Mostrandote de que todo esfuerzo tiene su recompensa. Año tras año, desde 1980 hasta hoy. Te enseñaremos cual fue premiado el mejor juego y por lo tanto el mas elegido por la gente. Que lo disfrutes!</h2>
+            </section>
+            
+            <section class="main-catalogo">
+                <h2>Catalogo</h2>
+              <div id="catalogo-juegos" class="row row-cols-2 row-cols-md-2 g-4">
+              <div class="card" style="width: 20rem;">
+                    <img src="assets/Pacman.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pacman</h5>
+                    </div> 
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Genero: Arcade</li>
+                      <li class="list-group-item">Fecha de lanzamiento: 1980</li>
+                      <li class="list-group-item">Empresa: Namco</li>
+                      <li id="precio" class="list-group-item">USD10</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" id="comprar-boton1"  class="agregar-carrito" data-id="1">Comprar</a>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="card" style="width: 20rem;">
+                    <img src="assets/donkey kong.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Donkey Kong</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Genero: Plataformas</li>
+                      <li class="list-group-item">Fecha de lanzamiento: 1981</li>
+                      <li class="list-group-item">Empresa: Nintendo</li>
+                      <li id="precio" class="list-group-item">USD10</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" id="comprar-boton2"  class="agregar-carrito" data-id="2">Comprar</a>
+                      </div>
+                  </div>
+                  <div class="card" style="width: 20rem;">
+                    <img src="assets/donkey kong jr.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Donkey Kong Jr</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Genero: Plataformas</li>
+                      <li class="list-group-item">Fecha de lanzamiento:1982</li>
+                      <li class="list-group-item">Empresa: Nintendo</li>
+                      <li id="precio" class="list-group-item">USD10</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" id="comprar-boton3" class="agregar-carrito" data-id="3">Comprar</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 20rem;">
+                    <img src="assets/mario bros-1983.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mario Bros.</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Genero:Plataformas</li>
+                      <li class="list-group-item">Fecha de lanzamiento: 1983</li>
+                      <li class="list-group-item">Empresa: Nintendo</li>
+                      <li id="precio" class="list-group-item">USD10</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" id="comprar-boton4" class="agregar-carrito" data-id="4">Comprar</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 20rem;">
+                    <img src="assets/tetris-1984.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tetris</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Genero: Puzzle</li>
+                      <li class="list-group-item">Fecha de lanzamiento: 1984</li>
+                      <li class="list-group-item">Empresa: Pajitnov</li>
+                      <li id="precio" class="list-group-item">USD10</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" id="comprar-boton5" class="agregar-carrito" data-id="5">Comprar</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 20rem;">
+                    <img src="assets/supermariobros-1985.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Super Mario Bros.</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Genero: Plataformas</li>
+                      <li class="list-group-item">Fecha de lanzamiento: 1985</li>
+                      <li class="list-group-item">Empresa: Nintendo</li>
+                      <li id="precio" class="list-group-item">USD10</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" id="comprar-boton6" class="agregar-carrito" data-id="6">Comprar</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 20rem;">
+                    <img src="assets/zelda-1986.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">The Legend of Zelda</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Genero:Accion-Aventura</li>
+                      <li class="list-group-item">Fecha de lanzamiento: 1986</li>
+                      <li class="list-group-item">Empresa: Nintendo</li>
+                      <li id="precio" class="list-group-item">USD10</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" id="comprar-boton7" class="agregar-carrito" data-id="7">Comprar</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 20rem;">
+                    <img src="assets/metroid-1987.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Metroid</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Genero: Accion-Aventura</li>
+                      <li class="list-group-item">Fecha de lanzamiento: 1987</li>
+                      <li class="list-group-item">Empresa: Nintendo</li>
+                      <li id="precio" class="list-group-item">USD10</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" id="comprar-boton8" class="agregar-carrito" data-id="8">Comprar</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 20rem;">
+                    <img src="assets/supermario2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Super Mario Bros. 2</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Genero:Plataformas</li>
+                      <li class="list-group-item">Fecha de lanzamiento: 1988</li>
+                      <li class="list-group-item">Empresa: Nintendo</li>
+                      <li id="precio" class="list-group-item">USD10</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" id="comprar-boton9" class="agregar-carrito" data-id="9">Comprar</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 20rem;">
+                    <img src="assets/tetris-1989.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tetris</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Genero: Puzzle</li>
+                      <li class="list-group-item">Fecha de lanzamiento: 1989</li>
+                      <li class="list-group-item">Empresa: Nintendo</li>
+                      <li id="precio" class="list-group-item">USD10</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" id="comprar-boton10" class="agregar-carrito" data-id="10">Comprar</a>
+                    </div>
+                  </div> 
+                <div class="card" style="width: 20rem;">
+                <img src="/assets/super mario bros 3.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Super Mario Bros. 3</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Genero: Plataformas</li>
+                    <li class="list-group-item">Fecha de lanzamiento: 1990</li>
+                    <li class="list-group-item">Empresa: Nintendo</li>
+                    <li id="precio" class="list-group-item">USD10</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" id="comprar-boton11" class="agregar-carrito" data-id="11">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 20rem;">
+                  <img src="/assets/street fghter 2.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Street Fighter II</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Genero: Juego de lucha</li>
+                    <li class="list-group-item">Fecha de lanzamiento: 1991</li>
+                    <li class="list-group-item">Empresa: Capcom</li>
+                    <li id="precio" class="list-group-item">USD10</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" id="comprar-boton12" class="agregar-carrito" data-id="12">Comprar</a> 
+                  </div>
+                </div>
+                  </div>
+                  </div>
+                  </div>
+                  
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+                        <li class="page-item"><a class="page-link" href="/pages/pagina2.html">2</a></li>
+                        <li class="page-item"><a class="page-link" href="/pages/pagina3.html">3</a></li>
+                        <li class="page-item"><a class="page-link" href="/pages/pagina4.html">4</a></li>
+                        <li class="page-item"><a class="page-link" href="/pages/pagina2.html">Next</a></li>
+                  </ul>
+            </section>
+        </main>     
+        <footer>
+          <h3>Todos los derechos reservados</h3>
+          </footer>   
+        <script src="js/data.js"></script>
+        <script src="js/javascript.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>    
+</body>
+</html>
